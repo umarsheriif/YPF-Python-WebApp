@@ -14,12 +14,12 @@ block_blob_service = BlockBlobService(account_name='ypfdatastore', account_key='
 container_name ='ypfcsvs'
 blobname = 'epf15_before.csv'
 
-local_path=os.path.expanduser(".")
+local_path=os.path.expanduser("Files")
 
 
 
 
-def main(filename_meas='epf15_before.csv'):  
+def main(filename_meas='Files/epf15_before.csv'):  
 
 
     # read the measurement csv file
