@@ -1,6 +1,5 @@
 from flask import Flask
 import numpy as np
-from matplotlib import pyplot as plt
 import io
 import pandas as pd
 import os, uuid, sys
